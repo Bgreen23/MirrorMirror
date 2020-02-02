@@ -79,3 +79,6 @@ Temporary Items
 *.bak
 
 !/tests/node_modules/**/*
+
+# Variables
+.env

@@ -1,10 +1,10 @@
+require('dotenv').config({path:__dirname+'../.env'})
 /* Magic Mirror
  * Server
  *
  * By Michael Teeuw http://michaelteeuw.nl
  * MIT Licensed.
  */
-
 var express = require("express");
 var app = require("express")();
 var server = require("http").Server(app);
